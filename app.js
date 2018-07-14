@@ -20,7 +20,8 @@ var campgroundRoutes = require("./routes/campgrounds"),
 // CONFIGURATION
 //###############################
 
-mongoose.connect("mongodb://localhost/yelp_camp");
+var url = process.env.DATABASEURL || "mongodb://localhost/restful_blog_app";
+mongoose.connect(url);
 var app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + "/public"));
