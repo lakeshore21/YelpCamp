@@ -8,6 +8,6 @@ A full-stack Node.js project from the course of <em>The Web Developer Bootcamp</
 * Google map location
 * Fuzzy search
 
-# Demo App link
+# Demo App
 https://baroque-chocolatine-18221.herokuapp.com/
 
