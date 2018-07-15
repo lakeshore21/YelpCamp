@@ -4,7 +4,8 @@ A full-stack Node.js project from the course of <em>The Web Developer Bootcamp</
 # Features
 * Restful routes (index, new, create, show, edit, update, and destroy)
 * Authentication with username and password
-* Authorization that one user cannot edit or delete posts/comments created by other users 
+* Authorization that one user cannot edit or delete posts/comments created by other users
+* Data association by document references
 * Google map location
 * Fuzzy search
 
